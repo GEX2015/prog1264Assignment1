@@ -1,11 +1,7 @@
 ﻿/**
-@file
-@author  Chris Arsenault Chris.arsenault06@gmail.com
+@file    program.cs
+@author  Robert Carll Robert-a-c@live.com
 @version 1.0
-
-@section LICENSE
-
-This software is based on the material accompanying the book "SFML Game Development" see License.txt
 
 Additions and modifications are my sole work for prog 1266
 
@@ -28,25 +24,20 @@ namespace Assignment1
     {
         static void Main(string[] args)
         {
-            Calculator calc = new Calculator();
-            string quit = "";
 
-            do
+            Calculator calc = new Calculator(); // creates calculator
+            string quit = "";                   // string to test for quit
+
+            do            
             {
-                
+                Console.Clear();                //clears screen for easier reading
+                calc.getOperands();             //gets input from the user  
+                calc.doMath();                  //calls the functions that do the calculations based on user input
 
-                
+                Console.WriteLine("Press Q to quit or any key to continue.");   // prompts user to continue or quit
+                quit = Console.ReadLine();                                      //
 
-                
-
-
-
-                
-
-               
-
-
-            } while (quit != "q");
+            } while (quit != "q" && quit != "Q");   //loop continues until user hits q when prompted
         }
     }
 }
