@@ -25,7 +25,6 @@
  */
 
 
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,14 +33,27 @@ using System.Threading.Tasks;
 
 namespace assignment_1
 {
-    class Program
+    class Menu
     {
-        static void Main(string[] args)
+       public  Menu()
         {
 
-            Calculator runCalculator = new Calculator();
-
-            runCalculator.calculatorRun();
         }
+
+        // display the menu for the user to know the sysbole to use
+        public void displayMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("***************Calculator***************\n");
+            Console.WriteLine("Legend: A or a is +");
+            Console.WriteLine("        S or s is -");
+            Console.WriteLine("        M or m is *");
+            Console.WriteLine("        D or d is /");
+            Console.WriteLine("        !, E or e is Exponentiation");
+            Console.WriteLine("        ^, F or f is Factorial\n");
+            Console.WriteLine(" Please enter a number");
+        }
+
+
     }
 }
