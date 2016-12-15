@@ -1,0 +1,7 @@
+C:\Users\rick__000\Documents\Visual Studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\rick__000\Desktop\prog1264Assignment1\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\rick__000\Desktop\prog1264Assignment1\Calculator\bin\Debug\Calculator.exe
+C:\Users\rick__000\Desktop\prog1264Assignment1\Calculator\bin\Debug\Calculator.pdb
+C:\Users\rick__000\Desktop\prog1264Assignment1\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\rick__000\Desktop\prog1264Assignment1\Calculator\obj\Debug\Calculator.exe
+C:\Users\rick__000\Desktop\prog1264Assignment1\Calculator\obj\Debug\Calculator.pdb
